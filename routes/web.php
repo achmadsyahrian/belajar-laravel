@@ -15,7 +15,9 @@ use Illuminate\Routing\RouteRegistrar;
 |
 */
 Route::get('/', function () {
-    return view('home');
+    return view('home', [
+        'title' => 'home'
+    ]);
 });
 
 Route::get('/home', function () {

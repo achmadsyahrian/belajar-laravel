@@ -1,4 +1,4 @@
-@dd($slug, $list["slug"]);
+{{-- @dd($slug, $list["slug"]); --}}
 @extends('layout.main')
 
 @section('container')
